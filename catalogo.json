@@ -1,0 +1,692 @@
+{
+ "nome": "Scitizia: natureza 64 bits",
+ "versao": 1,
+ "unidades": "metros; Y para cima; frente em +Z; origem no chão (y = 0), no centro do modelo ou do lote",
+ "campos": {
+  "dimensoes": "largura (X), altura (Y) e profundidade (Z) da caixa do modelo, em metros",
+  "base_y": "o ponto mais baixo do modelo (negativo quando a fundação ou o lastro descem abaixo do chão)",
+  "triangulos": "triângulos do .glb",
+  "kb": "tamanho do .glb com as texturas embutidas",
+  "materiais": "liso (sem textura), lona, metal, madeira, chapa, pneu, xadrez, vidro, tecido, janelas, placa (texto ou logotipo) e luz (sem iluminação); a cor vem da cor por vértice"
+ },
+ "secoes": [
+  {
+   "nome": "Árvores",
+   "modelos": 11
+  },
+  {
+   "nome": "Arbustos, capim e pedras",
+   "modelos": 10
+  },
+  {
+   "nome": "Sítio e beira de estrada",
+   "modelos": 8
+  },
+  {
+   "nome": "Estrada, pontes e represa",
+   "modelos": 5
+  }
+ ],
+ "modelos": [
+  {
+   "id": "pinheiro",
+   "nome": "Pinheiro",
+   "secao": "Árvores",
+   "descricao": "Pinheiro de 11 m em cones empilhados",
+   "triangulos": 66,
+   "kb": 10,
+   "dimensoes": [
+    6.435,
+    10.56,
+    6.273
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/pinheiro.glb",
+   "previa": "previas/pinheiro.png"
+  },
+  {
+   "id": "pinheiro_alto",
+   "nome": "Pinheiro alto",
+   "secao": "Árvores",
+   "descricao": "Pinheiro escuro de 14 m",
+   "triangulos": 66,
+   "kb": 10,
+   "dimensoes": [
+    8.189,
+    13.44,
+    7.984
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/pinheiro_alto.glb",
+   "previa": "previas/pinheiro_alto.png"
+  },
+  {
+   "id": "pinheiro_com_neve",
+   "nome": "Pinheiro com neve",
+   "secao": "Árvores",
+   "descricao": "Pinheiro com neve nas pontas dos galhos",
+   "triangulos": 94,
+   "kb": 13.6,
+   "dimensoes": [
+    5.85,
+    9.7,
+    5.703
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/pinheiro_com_neve.glb",
+   "previa": "previas/pinheiro_com_neve.png"
+  },
+  {
+   "id": "arvore_folhosa",
+   "nome": "Árvore folhosa",
+   "secao": "Árvores",
+   "descricao": "Árvore de copa redonda de 8 m",
+   "triangulos": 104,
+   "kb": 14.9,
+   "dimensoes": [
+    4.081,
+    8.112,
+    4.056
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/arvore_folhosa.glb",
+   "previa": "previas/arvore_folhosa.png"
+  },
+  {
+   "id": "arvore_folhosa_grande",
+   "nome": "Árvore folhosa grande",
+   "secao": "Árvores",
+   "descricao": "Árvore de copa larga de 9 m",
+   "triangulos": 104,
+   "kb": 14.9,
+   "dimensoes": [
+    6.091,
+    8.436,
+    4.319
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/arvore_folhosa_grande.glb",
+   "previa": "previas/arvore_folhosa_grande.png"
+  },
+  {
+   "id": "ipe_amarelo",
+   "nome": "Ipê amarelo",
+   "secao": "Árvores",
+   "descricao": "Árvore florida de copa amarela",
+   "triangulos": 104,
+   "kb": 14.9,
+   "dimensoes": [
+    3.513,
+    7.285,
+    5.593
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/ipe_amarelo.glb",
+   "previa": "previas/ipe_amarelo.png"
+  },
+  {
+   "id": "arvore_tropical",
+   "nome": "Árvore tropical",
+   "secao": "Árvores",
+   "descricao": "Árvore alta de copa verde-escura, 12 m",
+   "triangulos": 104,
+   "kb": 14.9,
+   "dimensoes": [
+    6.946,
+    11.846,
+    6.518
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/arvore_tropical.glb",
+   "previa": "previas/arvore_tropical.png"
+  },
+  {
+   "id": "palmeira_de_praia",
+   "nome": "Palmeira",
+   "secao": "Árvores",
+   "descricao": "Palmeira de tronco em gomos e leque de folhas",
+   "triangulos": 308,
+   "kb": 41.2,
+   "dimensoes": [
+    6.038,
+    8.73,
+    5.887
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/palmeira_de_praia.glb",
+   "previa": "previas/palmeira_de_praia.png"
+  },
+  {
+   "id": "bananeira",
+   "nome": "Bananeira",
+   "secao": "Árvores",
+   "descricao": "Bananeira de seis folhas",
+   "triangulos": 96,
+   "kb": 13.8,
+   "dimensoes": [
+    3.927,
+    3.397,
+    4.13
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/bananeira.glb",
+   "previa": "previas/bananeira.png"
+  },
+  {
+   "id": "cacto",
+   "nome": "Cacto",
+   "secao": "Árvores",
+   "descricao": "Cacto de braços (deserto)",
+   "triangulos": 208,
+   "kb": 28.2,
+   "dimensoes": [
+    2.446,
+    3.52,
+    0.72
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/cacto.glb",
+   "previa": "previas/cacto.png"
+  },
+  {
+   "id": "arvore_seca",
+   "nome": "Árvore seca",
+   "secao": "Árvores",
+   "descricao": "Tronco seco com galhos sem folhas",
+   "triangulos": 44,
+   "kb": 7.2,
+   "dimensoes": [
+    2.511,
+    4.838,
+    1.614
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/arvore_seca.glb",
+   "previa": "previas/arvore_seca.png"
+  },
+  {
+   "id": "arbusto_verde",
+   "nome": "Arbusto verde",
+   "secao": "Arbustos, capim e pedras",
+   "descricao": "Moita arredondada",
+   "triangulos": 40,
+   "kb": 6.7,
+   "dimensoes": [
+    1.948,
+    1.195,
+    1.526
+   ],
+   "base_y": -0.103,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/arbusto_verde.glb",
+   "previa": "previas/arbusto_verde.png"
+  },
+  {
+   "id": "arbusto_escuro",
+   "nome": "Arbusto escuro",
+   "secao": "Arbustos, capim e pedras",
+   "descricao": "Moita verde-escura",
+   "triangulos": 40,
+   "kb": 6.7,
+   "dimensoes": [
+    1.948,
+    1.195,
+    1.526
+   ],
+   "base_y": -0.103,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/arbusto_escuro.glb",
+   "previa": "previas/arbusto_escuro.png"
+  },
+  {
+   "id": "arbusto_seco",
+   "nome": "Arbusto seco",
+   "secao": "Arbustos, capim e pedras",
+   "descricao": "Moita seca de cerrado e deserto",
+   "triangulos": 40,
+   "kb": 6.7,
+   "dimensoes": [
+    1.948,
+    1.195,
+    1.526
+   ],
+   "base_y": -0.103,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/arbusto_seco.glb",
+   "previa": "previas/arbusto_seco.png"
+  },
+  {
+   "id": "arbusto_com_neve",
+   "nome": "Arbusto com neve",
+   "secao": "Arbustos, capim e pedras",
+   "descricao": "Moita com neve por cima",
+   "triangulos": 60,
+   "kb": 9.3,
+   "dimensoes": [
+    1.948,
+    1.195,
+    1.526
+   ],
+   "base_y": -0.103,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/arbusto_com_neve.glb",
+   "previa": "previas/arbusto_com_neve.png"
+  },
+  {
+   "id": "capim_verde",
+   "nome": "Capim verde",
+   "secao": "Arbustos, capim e pedras",
+   "descricao": "Touceira de capim (12 triângulos)",
+   "triangulos": 12,
+   "kb": 3.1,
+   "dimensoes": [
+    0.388,
+    1.12,
+    0.545
+   ],
+   "base_y": -0.188,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/capim_verde.glb",
+   "previa": "previas/capim_verde.png"
+  },
+  {
+   "id": "capim_seco",
+   "nome": "Capim seco",
+   "secao": "Arbustos, capim e pedras",
+   "descricao": "Touceira de capim seco",
+   "triangulos": 12,
+   "kb": 3.1,
+   "dimensoes": [
+    0.388,
+    1.12,
+    0.545
+   ],
+   "base_y": -0.188,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/capim_seco.glb",
+   "previa": "previas/capim_seco.png"
+  },
+  {
+   "id": "junco",
+   "nome": "Junco",
+   "secao": "Arbustos, capim e pedras",
+   "descricao": "Juncos de beira d'água com as espigas",
+   "triangulos": 48,
+   "kb": 7.7,
+   "dimensoes": [
+    0.481,
+    1.74,
+    0.362
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/junco.glb",
+   "previa": "previas/junco.png"
+  },
+  {
+   "id": "pedra",
+   "nome": "Pedra",
+   "secao": "Arbustos, capim e pedras",
+   "descricao": "Pedra achatada",
+   "triangulos": 20,
+   "kb": 4.1,
+   "dimensoes": [
+    1.769,
+    0.953,
+    1.361
+   ],
+   "base_y": -0.276,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/pedra.glb",
+   "previa": "previas/pedra.png"
+  },
+  {
+   "id": "pedra_grande",
+   "nome": "Pedra grande",
+   "secao": "Arbustos, capim e pedras",
+   "descricao": "Duas rochas grandes juntas",
+   "triangulos": 40,
+   "kb": 6.7,
+   "dimensoes": [
+    4.647,
+    2.722,
+    3.718
+   ],
+   "base_y": -0.761,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/pedra_grande.glb",
+   "previa": "previas/pedra_grande.png"
+  },
+  {
+   "id": "pedra_com_neve",
+   "nome": "Pedra com neve",
+   "secao": "Arbustos, capim e pedras",
+   "descricao": "Pedra com neve por cima",
+   "triangulos": 40,
+   "kb": 6.7,
+   "dimensoes": [
+    1.769,
+    0.955,
+    1.361
+   ],
+   "base_y": -0.276,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/pedra_com_neve.glb",
+   "previa": "previas/pedra_com_neve.png"
+  },
+  {
+   "id": "casinha_de_sitio",
+   "nome": "Casinha de sítio",
+   "secao": "Sítio e beira de estrada",
+   "descricao": "Casa de sítio com telhado de duas águas e chaminé",
+   "triangulos": 92,
+   "kb": 13.3,
+   "dimensoes": [
+    6.8,
+    5.8,
+    5.8
+   ],
+   "base_y": -1.3,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/casinha_de_sitio.glb",
+   "previa": "previas/casinha_de_sitio.png"
+  },
+  {
+   "id": "casinha_azul",
+   "nome": "Casinha azul",
+   "secao": "Sítio e beira de estrada",
+   "descricao": "A mesma casinha em azul",
+   "triangulos": 92,
+   "kb": 13.3,
+   "dimensoes": [
+    6.8,
+    5.8,
+    5.8
+   ],
+   "base_y": -1.3,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/casinha_azul.glb",
+   "previa": "previas/casinha_azul.png"
+  },
+  {
+   "id": "celeiro",
+   "nome": "Celeiro",
+   "secao": "Sítio e beira de estrada",
+   "descricao": "Celeiro vermelho de madeira com telhado de chapa",
+   "triangulos": 112,
+   "kb": 21.6,
+   "dimensoes": [
+    10.6,
+    8.4,
+    8.8
+   ],
+   "base_y": -1.3,
+   "materiais": [
+    "liso",
+    "madeira",
+    "chapa"
+   ],
+   "arquivo": "modelos/celeiro.glb",
+   "previa": "previas/celeiro.png"
+  },
+  {
+   "id": "caixa_dagua",
+   "nome": "Caixa-d'água",
+   "secao": "Sítio e beira de estrada",
+   "descricao": "Caixa-d'água azul sobre torre de quatro pés",
+   "triangulos": 112,
+   "kb": 15.9,
+   "dimensoes": [
+    2.625,
+    9.407,
+    2.76
+   ],
+   "base_y": -0.507,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/caixa_dagua.glb",
+   "previa": "previas/caixa_dagua.png"
+  },
+  {
+   "id": "porteira",
+   "nome": "Porteira",
+   "secao": "Sítio e beira de estrada",
+   "descricao": "Porteira de madeira aberta entre dois mourões",
+   "triangulos": 96,
+   "kb": 16.7,
+   "dimensoes": [
+    4.842,
+    2.2,
+    4.231
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "madeira"
+   ],
+   "arquivo": "modelos/porteira.glb",
+   "previa": "previas/porteira.png"
+  },
+  {
+   "id": "poste_de_madeira",
+   "nome": "Poste de luz de madeira",
+   "secao": "Sítio e beira de estrada",
+   "descricao": "Poste rural com cruzeta e isoladores",
+   "triangulos": 96,
+   "kb": 17.9,
+   "dimensoes": [
+    1.8,
+    8.6,
+    0.3
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "madeira",
+    "liso"
+   ],
+   "arquivo": "modelos/poste_de_madeira.glb",
+   "previa": "previas/poste_de_madeira.png"
+  },
+  {
+   "id": "placa_ponte_estreita",
+   "nome": "Placa de ponte estreita",
+   "secao": "Sítio e beira de estrada",
+   "descricao": "Placa de advertência em losango: ponte estreita",
+   "triangulos": 120,
+   "kb": 16.9,
+   "dimensoes": [
+    1.301,
+    2.901,
+    0.145
+   ],
+   "base_y": -0.1,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/placa_ponte_estreita.glb",
+   "previa": "previas/placa_ponte_estreita.png"
+  },
+  {
+   "id": "placa_vau",
+   "nome": "Placa de vau",
+   "secao": "Sítio e beira de estrada",
+   "descricao": "Placa de advertência em losango: pista alagada (vau)",
+   "triangulos": 168,
+   "kb": 23.1,
+   "dimensoes": [
+    1.301,
+    2.901,
+    0.145
+   ],
+   "base_y": -0.1,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/placa_vau.glb",
+   "previa": "previas/placa_vau.png"
+  },
+  {
+   "id": "portico_de_largada",
+   "nome": "Pórtico de largada",
+   "secao": "Estrada, pontes e represa",
+   "descricao": "Pórtico de treliça azul com faixa LARGADA, refletores e bandeirinhas (estrada de 10,4 m)",
+   "triangulos": 3060,
+   "kb": 425.6,
+   "dimensoes": [
+    11.494,
+    7.316,
+    1.122
+   ],
+   "base_y": -0.705,
+   "materiais": [
+    "liso",
+    "metal",
+    "lona",
+    "luz",
+    "placa",
+    "liso"
+   ],
+   "arquivo": "modelos/portico_de_largada.glb",
+   "previa": "previas/portico_de_largada.png"
+  },
+  {
+   "id": "portico_de_chegada",
+   "nome": "Pórtico de chegada",
+   "secao": "Estrada, pontes e represa",
+   "descricao": "Pórtico de treliça vermelho com faixa CHEGADA",
+   "triangulos": 3060,
+   "kb": 426.6,
+   "dimensoes": [
+    11.494,
+    7.316,
+    1.122
+   ],
+   "base_y": -0.705,
+   "materiais": [
+    "liso",
+    "metal",
+    "lona",
+    "luz",
+    "placa",
+    "liso"
+   ],
+   "arquivo": "modelos/portico_de_chegada.glb",
+   "previa": "previas/portico_de_chegada.png"
+  },
+  {
+   "id": "ponte_de_concreto",
+   "nome": "Ponte de concreto",
+   "secao": "Estrada, pontes e represa",
+   "descricao": "Ponte de 28 m: tabuleiro, muretas, pilares e cabeceiras (pista de 8,4 m)",
+   "triangulos": 552,
+   "kb": 72.6,
+   "dimensoes": [
+    10,
+    6.71,
+    32.2
+   ],
+   "base_y": -5.8,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/ponte_de_concreto.glb",
+   "previa": "previas/ponte_de_concreto.png"
+  },
+  {
+   "id": "ponte_de_madeira",
+   "nome": "Ponte de madeira",
+   "secao": "Estrada, pontes e represa",
+   "descricao": "Ponte de 20 m: tábuas, guarda-corpo de madeira, pilares roliços (pista de 6,4 m)",
+   "triangulos": 792,
+   "kb": 107.5,
+   "dimensoes": [
+    8,
+    6.477,
+    24.2
+   ],
+   "base_y": -5.467,
+   "materiais": [
+    "madeira",
+    "liso"
+   ],
+   "arquivo": "modelos/ponte_de_madeira.glb",
+   "previa": "previas/ponte_de_madeira.png"
+  },
+  {
+   "id": "barragem",
+   "nome": "Barragem",
+   "secao": "Estrada, pontes e represa",
+   "descricao": "Barragem de concreto de 36 m com mureta e casa de controle",
+   "triangulos": 56,
+   "kb": 8.5,
+   "dimensoes": [
+    36,
+    11.5,
+    7.3
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/barragem.glb",
+   "previa": "previas/barragem.png"
+  }
+ ]
+}
