@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "Se usar estes modelos, cite o repositório assim (opcional: os modelos estão em domínio público)."
-title: "Scitizia: natureza 64 bits - 34 árvores, pedras, construções de sítio, pontes e pórticos low poly em glTF/GLB"
+title: "Scitizia: natureza 64 bits - 57 árvores, pedras, construções de sítio, vilarejo e montanha, pontes e pórticos low poly em glTF/GLB"
 type: dataset
 authors:
   - alias: kayquer
 repository-code: "https://github.com/kayquer/scitizia-natureza-64"
 url: "https://github.com/kayquer/scitizia-natureza-64"
 license: CC0-1.0
-abstract: "Coleção de 34 modelos de natureza e beira de estrada em baixo polígono com visual retrô de console de 64 bits (árvores, arbustos, capim, pedras, construções de sítio, placas, pórticos, pontes e barragem), em glTF 2.0 binário (.glb), com cor por vértice, texturas PNG de 64 px, prévias e catálogo JSON."
+abstract: "Coleção de 57 modelos de natureza e beira de estrada em baixo polígono com visual retrô de console de 64 bits (árvores, arbustos, capim, pedras, construções de sítio, de vilarejo, de montanha e de mata, placas, pórticos, pontes, barragem e muro de contenção), em glTF 2.0 binário (.glb), com cor por vértice, texturas PNG de 64 px, prévias e catálogo JSON."
 keywords:
   - low poly
   - nature
@@ -15,7 +15,12 @@ keywords:
   - rocks
   - farm
   - bridges
+  - tunnel
+  - railway
   - roadside
+  - village
+  - cabins
+  - ruins
   - rally
   - racing
   - 3d models

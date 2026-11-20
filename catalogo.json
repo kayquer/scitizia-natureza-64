@@ -20,10 +20,18 @@
   },
   {
    "nome": "Sítio e beira de estrada",
-   "modelos": 8
+   "modelos": 12
   },
   {
    "nome": "Estrada, pontes e represa",
+   "modelos": 7
+  },
+  {
+   "nome": "Vilarejo, montanha e mata",
+   "modelos": 12
+  },
+  {
+   "nome": "Túnel e ferrovia",
    "modelos": 5
   }
  ],
@@ -583,6 +591,91 @@
    "previa": "previas/placa_vau.png"
   },
   {
+   "id": "silo",
+   "nome": "Silo metálico",
+   "secao": "Sítio e beira de estrada",
+   "descricao": "Silo de chapa galvanizada com cintas, teto cônico, respiro, escada com gaiola e bica de descarga",
+   "triangulos": 1200,
+   "kb": 158.2,
+   "dimensoes": [
+    6.654,
+    12.575,
+    6.665
+   ],
+   "base_y": -0.8,
+   "materiais": [
+    "liso",
+    "metal"
+   ],
+   "arquivo": "modelos/silo.glb",
+   "previa": "previas/silo.png"
+  },
+  {
+   "id": "silo_par",
+   "nome": "Par de silos",
+   "secao": "Sítio e beira de estrada",
+   "descricao": "Dois silos com o elevador de grãos no meio e a esteira inclinada",
+   "triangulos": 2482,
+   "kb": 323.4,
+   "dimensoes": [
+    13.054,
+    13.8,
+    11.25
+   ],
+   "base_y": -0.8,
+   "materiais": [
+    "liso",
+    "metal"
+   ],
+   "arquivo": "modelos/silo_par.glb",
+   "previa": "previas/silo_par.png"
+  },
+  {
+   "id": "moinho_de_vento",
+   "nome": "Cata-vento de fazenda",
+   "secao": "Sítio e beira de estrada",
+   "descricao": "Cata-vento de bomba d'água em torre treliçada, 16 pás, leme e bebedouro redondo",
+   "triangulos": 1712,
+   "kb": 229.6,
+   "dimensoes": [
+    6.325,
+    13.025,
+    6.8
+   ],
+   "base_y": -0.2,
+   "materiais": [
+    "liso",
+    "metal",
+    "xadrez",
+    "metal",
+    "liso"
+   ],
+   "arquivo": "modelos/moinho_de_vento.glb",
+   "previa": "previas/moinho_de_vento.png"
+  },
+  {
+   "id": "cabana_de_campo",
+   "nome": "Cabana de campo",
+   "secao": "Sítio e beira de estrada",
+   "descricao": "Cabana de madeira com varanda coberta, telhado de chapa verde, chaminé de pedra e lenha",
+   "triangulos": 2310,
+   "kb": 308.3,
+   "dimensoes": [
+    8.2,
+    7.21,
+    8.975
+   ],
+   "base_y": -1.9,
+   "materiais": [
+    "madeira",
+    "liso",
+    "chapa",
+    "pedra"
+   ],
+   "arquivo": "modelos/cabana_de_campo.glb",
+   "previa": "previas/cabana_de_campo.png"
+  },
+  {
    "id": "portico_de_largada",
    "nome": "Pórtico de largada",
    "secao": "Estrada, pontes e represa",
@@ -687,6 +780,404 @@
    ],
    "arquivo": "modelos/barragem.glb",
    "previa": "previas/barragem.png"
+  },
+  {
+   "id": "ponte_de_pedra",
+   "nome": "Ponte de pedra em arco",
+   "secao": "Estrada, pontes e represa",
+   "descricao": "Pontilhão de pedra de 13 m com um arco de 5 m, aduelas, parapeitos e musgo",
+   "triangulos": 732,
+   "kb": 99.1,
+   "dimensoes": [
+    13.237,
+    4.712,
+    3.598
+   ],
+   "base_y": -1.6,
+   "materiais": [
+    "liso",
+    "pedra"
+   ],
+   "arquivo": "modelos/ponte_de_pedra.glb",
+   "previa": "previas/ponte_de_pedra.png"
+  },
+  {
+   "id": "muro_de_contencao",
+   "nome": "Muro de contenção",
+   "secao": "Estrada, pontes e represa",
+   "descricao": "Módulo de 6 m de muro de pedra empilhada para barrancos, com pedras de capa e drenos",
+   "triangulos": 352,
+   "kb": 50.1,
+   "dimensoes": [
+    6.02,
+    3.427,
+    1.19
+   ],
+   "base_y": -0.6,
+   "materiais": [
+    "liso",
+    "pedra"
+   ],
+   "arquivo": "modelos/muro_de_contencao.glb",
+   "previa": "previas/muro_de_contencao.png"
+  },
+  {
+   "id": "armazem_velho",
+   "nome": "Armazém velho",
+   "secao": "Vilarejo, montanha e mata",
+   "descricao": "Armazém abandonado de madeira com fachada falsa alta, vitrines, placa em branco e varanda coberta",
+   "triangulos": 1684,
+   "kb": 227.6,
+   "dimensoes": [
+    7.967,
+    8.84,
+    13.81
+   ],
+   "base_y": -1.9,
+   "materiais": [
+    "madeira",
+    "chapa",
+    "liso",
+    "pedra"
+   ],
+   "arquivo": "modelos/armazem_velho.glb",
+   "previa": "previas/armazem_velho.png"
+  },
+  {
+   "id": "saloon_velho",
+   "nome": "Bar velho de dois andares",
+   "secao": "Vilarejo, montanha e mata",
+   "descricao": "Bar de madeira de dois andares com fachada em degraus, portas de vaivém, varanda e sacada com balaústres",
+   "triangulos": 3560,
+   "kb": 469.3,
+   "dimensoes": [
+    9.661,
+    11.44,
+    16.05
+   ],
+   "base_y": -1.9,
+   "materiais": [
+    "madeira",
+    "chapa",
+    "liso",
+    "pedra"
+   ],
+   "arquivo": "modelos/saloon_velho.glb",
+   "previa": "previas/saloon_velho.png"
+  },
+  {
+   "id": "casa_de_madeira_velha",
+   "nome": "Casa de madeira velha",
+   "secao": "Vilarejo, montanha e mata",
+   "descricao": "Casinha de tábuas sobre toquinhos, telhado caído, janelas tapadas e porta entreaberta",
+   "triangulos": 676,
+   "kb": 96.5,
+   "dimensoes": [
+    6.6,
+    6.54,
+    7.207
+   ],
+   "base_y": -1,
+   "materiais": [
+    "liso",
+    "madeira",
+    "chapa",
+    "metal"
+   ],
+   "arquivo": "modelos/casa_de_madeira_velha.glb",
+   "previa": "previas/casa_de_madeira_velha.png"
+  },
+  {
+   "id": "celeiro_seco",
+   "nome": "Celeiro de tábuas desbotadas",
+   "secao": "Vilarejo, montanha e mata",
+   "descricao": "Celeiro de telhado de duas inclinações, portão com X, porta do palheiro e frestas",
+   "triangulos": 1054,
+   "kb": 149.8,
+   "dimensoes": [
+    9.803,
+    9.404,
+    13.775
+   ],
+   "base_y": -1.9,
+   "materiais": [
+    "madeira",
+    "chapa",
+    "liso",
+    "lona",
+    "pedra"
+   ],
+   "arquivo": "modelos/celeiro_seco.glb",
+   "previa": "previas/celeiro_seco.png"
+  },
+  {
+   "id": "torre_dagua_madeira",
+   "nome": "Torre d'água de madeira",
+   "secao": "Vilarejo, montanha e mata",
+   "descricao": "Tanque de aduelas com cintas de ferro sobre torre de pernas contraventadas, bica e escada",
+   "triangulos": 1486,
+   "kb": 199.1,
+   "dimensoes": [
+    4.7,
+    12.05,
+    6.456
+   ],
+   "base_y": -0.2,
+   "materiais": [
+    "liso",
+    "madeira",
+    "metal"
+   ],
+   "arquivo": "modelos/torre_dagua_madeira.glb",
+   "previa": "previas/torre_dagua_madeira.png"
+  },
+  {
+   "id": "cabana_alpina",
+   "nome": "Cabana de montanha",
+   "secao": "Vilarejo, montanha e mata",
+   "descricao": "Cabana de pedra e madeira de telhado íngreme, sacada na empena, venezianas, chaminé e lenha",
+   "triangulos": 4202,
+   "kb": 550.3,
+   "dimensoes": [
+    9.483,
+    11.787,
+    8.422
+   ],
+   "base_y": -1.9,
+   "materiais": [
+    "madeira",
+    "liso",
+    "pedra"
+   ],
+   "arquivo": "modelos/cabana_alpina.glb",
+   "previa": "previas/cabana_alpina.png"
+  },
+  {
+   "id": "cabana_alpina_neve",
+   "nome": "Cabana de montanha com neve",
+   "secao": "Vilarejo, montanha e mata",
+   "descricao": "A mesma cabana com neve no telhado, na sacada e montes no pé das paredes",
+   "triangulos": 4650,
+   "kb": 608.1,
+   "dimensoes": [
+    10.22,
+    11.796,
+    8.85
+   ],
+   "base_y": -1.9,
+   "materiais": [
+    "madeira",
+    "liso",
+    "pedra"
+   ],
+   "arquivo": "modelos/cabana_alpina_neve.glb",
+   "previa": "previas/cabana_alpina_neve.png"
+  },
+  {
+   "id": "abrigo_de_pedra",
+   "nome": "Abrigo de pedra",
+   "secao": "Vilarejo, montanha e mata",
+   "descricao": "Abrigo de paredes grossas, telhado de lajes, porta baixa, banco e marco de pedras",
+   "triangulos": 784,
+   "kb": 109.7,
+   "dimensoes": [
+    6.057,
+    5.009,
+    4.768
+   ],
+   "base_y": -1.9,
+   "materiais": [
+    "liso",
+    "madeira",
+    "pedra"
+   ],
+   "arquivo": "modelos/abrigo_de_pedra.glb",
+   "previa": "previas/abrigo_de_pedra.png"
+  },
+  {
+   "id": "abrigo_de_pedra_neve",
+   "nome": "Abrigo de pedra com neve",
+   "secao": "Vilarejo, montanha e mata",
+   "descricao": "O mesmo abrigo coberto de neve",
+   "triangulos": 1068,
+   "kb": 146.4,
+   "dimensoes": [
+    7.72,
+    5.229,
+    5.55
+   ],
+   "base_y": -1.9,
+   "materiais": [
+    "liso",
+    "madeira",
+    "pedra"
+   ],
+   "arquivo": "modelos/abrigo_de_pedra_neve.glb",
+   "previa": "previas/abrigo_de_pedra_neve.png"
+  },
+  {
+   "id": "ruina_de_pedra",
+   "nome": "Ruína de pedra",
+   "secao": "Vilarejo, montanha e mata",
+   "descricao": "Muro quebrado de blocos com musgo, arco antigo de aduelas, blocos caídos e cipós",
+   "triangulos": 1024,
+   "kb": 133.4,
+   "dimensoes": [
+    8.463,
+    5.064,
+    5.818
+   ],
+   "base_y": -0.204,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/ruina_de_pedra.glb",
+   "previa": "previas/ruina_de_pedra.png"
+  },
+  {
+   "id": "cabana_de_palha",
+   "nome": "Cabana de palha",
+   "secao": "Vilarejo, montanha e mata",
+   "descricao": "Cobertura aberta de quatro águas em palha sobre esteios roliços, piso de tábuas, mesa, bancos e rede",
+   "triangulos": 480,
+   "kb": 77.8,
+   "dimensoes": [
+    5.586,
+    6,
+    5.586
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "madeira",
+    "liso",
+    "tecido",
+    "palha"
+   ],
+   "arquivo": "modelos/cabana_de_palha.glb",
+   "previa": "previas/cabana_de_palha.png"
+  },
+  {
+   "id": "posto_avancado",
+   "nome": "Posto avançado",
+   "secao": "Vilarejo, montanha e mata",
+   "descricao": "Plataforma de madeira sobre palafitas com escada, guarda-corpo, telhado de palha, caixotes e lampião",
+   "triangulos": 922,
+   "kb": 135.2,
+   "dimensoes": [
+    6,
+    6.29,
+    6.43
+   ],
+   "base_y": -0.5,
+   "materiais": [
+    "liso",
+    "madeira",
+    "metal",
+    "luz",
+    "palha"
+   ],
+   "arquivo": "modelos/posto_avancado.glb",
+   "previa": "previas/posto_avancado.png"
+  },
+  {
+   "id": "boca_de_tunel",
+   "nome": "Boca de túnel",
+   "secao": "Túnel e ferrovia",
+   "descricao": "Boca de concreto com aduelas, cornija e muros de ala num bloco de rocha furado, com 12 m de galeria (vão de 12 m por 6,3 m)",
+   "triangulos": 860,
+   "kb": 112.3,
+   "dimensoes": [
+    24.348,
+    10.864,
+    17.22
+   ],
+   "base_y": -0.6,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/boca_de_tunel.glb",
+   "previa": "previas/boca_de_tunel.png"
+  },
+  {
+   "id": "modulo_de_trilho",
+   "nome": "Módulo de trilho",
+   "secao": "Túnel e ferrovia",
+   "descricao": "6,2 m de linha reta para emendar: lastro de brita, dormentes de madeira e dois trilhos (bitola de 1,6 m)",
+   "triangulos": 174,
+   "kb": 29.9,
+   "dimensoes": [
+    4.4,
+    0.58,
+    6.2
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso",
+    "madeira",
+    "metal"
+   ],
+   "arquivo": "modelos/modulo_de_trilho.glb",
+   "previa": "previas/modulo_de_trilho.png"
+  },
+  {
+   "id": "modulo_de_trilho_concreto",
+   "nome": "Módulo de trilho com dormentes de concreto",
+   "secao": "Túnel e ferrovia",
+   "descricao": "O mesmo módulo de 6,2 m com dormentes de concreto",
+   "triangulos": 174,
+   "kb": 26,
+   "dimensoes": [
+    4.4,
+    0.58,
+    6.2
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso",
+    "metal"
+   ],
+   "arquivo": "modelos/modulo_de_trilho_concreto.glb",
+   "previa": "previas/modulo_de_trilho_concreto.png"
+  },
+  {
+   "id": "sinal_passagem_de_nivel",
+   "nome": "Sinal de passagem de nível",
+   "secao": "Túnel e ferrovia",
+   "descricao": "Poste com cruz de santo andré, duas lanternas vermelhas de cada lado, caixa de comando e base de concreto",
+   "triangulos": 768,
+   "kb": 102.5,
+   "dimensoes": [
+    1.5,
+    4.325,
+    0.66
+   ],
+   "base_y": -0.075,
+   "materiais": [
+    "liso",
+    "metal"
+   ],
+   "arquivo": "modelos/sinal_passagem_de_nivel.glb",
+   "previa": "previas/sinal_passagem_de_nivel.png"
+  },
+  {
+   "id": "poste_de_telegrafo",
+   "nome": "Poste de telégrafo",
+   "secao": "Túnel e ferrovia",
+   "descricao": "Poste de madeira de 6,6 m com cruzeta, mãos-francesas e quatro isoladores",
+   "triangulos": 152,
+   "kb": 25.1,
+   "dimensoes": [
+    1.7,
+    6.6,
+    0.266
+   ],
+   "base_y": 0,
+   "materiais": [
+    "madeira",
+    "liso"
+   ],
+   "arquivo": "modelos/poste_de_telegrafo.glb",
+   "previa": "previas/poste_de_telegrafo.png"
   }
  ]
 }
